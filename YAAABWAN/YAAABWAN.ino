@@ -5,7 +5,6 @@
 //
 // HISTORY
 //
-//
 // MHackney 10/17/2016
 // Uses some Open Source code developed by SeeMeCNC in their Repetier fork to support the HE280
 // Uses the Wire I2Ccommunication library
@@ -23,21 +22,7 @@
 // Function: process the HE280's accelerometer (IIS2DH) signal and report it 
 // to the Duet controller as a binary on/off signal mimicing an endstop switch
 //
-// YAAABWAA - yet another accelerometer adapter
-//
-// Sparkfun Trinket 3.3V spec sheet: https://learn.adafruit.com/introducing-trinket/pinouts
-// IIS2DH spec sheet: http://www.st.com/en/mems-and-sensors/iis2dh.html
-//
-// Windows users must install drivers (https://learn.adafruit.com/introducing-trinket/windows-setup)
-//
-// Trinket setup and programming information: https://learn.adafruit.com/introducing-trinket/starting-the-bootloader
-//
-// Arduino IDE Setup
-//--------------------------------------------------------------------
-// Board: Adafruit Trinket 8MHz
-// Programmer: USBtinyISP
-//
-// Although not tested, this should work with Smoothie too
+// YAAABWAN - yet another accelerometer adapter (But With Arduino Nano)
 //
 //--------------------------------------------------------------------
 //
